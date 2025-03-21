@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Bodoni MT;
+    text-align: center;
+}
+
+#main {
+    position: relative;
+    background-color: rgba(150, 220, 132, 0.4);
+    padding: 40px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+#subhead {
+    margin-bottom: 10px;
+}
+
+#img-div {
+    position: relative;
+    min-width: 40%;
+    max-width: 80%;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+    background-color: rgba(250, 255, 180, 1);
+}
+
+#image {
+    position: relative;
+    display: block;
+    justify-content: center;
+    max-width: 100%;
+}
+
+#img-caption {
+    font-family: Courier;
+    margin: 10px;
+}
+
+#tribute-info {
+    text-align: left;
+    font-family: Century Gothic;
+    padding: 40px;
+}
+
+#tribute-info ul li {
+    margin: 10px;
+}
+
+#tribute-info ul li b {
+    margin-right: 10px;
+    font-family: Franklin Gothic Medium;
+}
+
+@media screen and (min-width: 350px) and (max-width: 700px) {
+    #main {
+        position: relative;
+        background-color: rgba(150, 220, 132, 0.4);
+        margin: 0;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #img-div {
+        position: relative;
+        min-width: 40%;
+        max-width: 80%;
+        padding: 5px;
+        margin: auto;
+        justify-content: center;
+        background-color: rgba(250, 255, 180, 1);
+    }
+
+    #image {
+        position: relative;
+        display: block;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    #img-caption {
+        font-family: Courier, ans-serif;
+        margin: 5px;
+    }
+
+    #tribute-info {
+        text-align: left;
+        font-family: Century Gothic, sans-serif;
+        font-size: .8rem;
+        padding: 20px;
+    }
+}
